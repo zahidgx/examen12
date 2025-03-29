@@ -55,8 +55,12 @@ const Login = () => {
         />
         <button type="submit">Ingresar</button>
       </form>
+      <button onClick={() => navigate("/register")} className="register-button">
+        Crear Usuario
+      </button>
     </div>
   );
 };
 
 export default Login;
+
